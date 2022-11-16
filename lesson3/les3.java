@@ -8,7 +8,7 @@ public class les3 {
     public static void main(String[] args) throws SQLException {
         String mysqlUtr = "jdbc:mysql://localhost/les_fin";
         Connection con = DriverManager.getConnection(mysqlUtr, "root", "1997");
-        System.out.println("Успешное подключение");
+        System.out.println("Успешное подключение!cle");
 
         Scanner scan = new Scanner(System.in);
 
